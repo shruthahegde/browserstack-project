@@ -1,5 +1,5 @@
-userName: shruthahegde_BIVNbn
-accessKey: eWHgcm43bPSXAay5Qw2q
+userName: $BROWSERSTACK_USERNAME
+accessKey: $BROWSERSTACK_ACCESS_KEY
 framework: pytest
 
 platforms:
