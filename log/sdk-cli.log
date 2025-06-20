@@ -8028,3 +8028,65 @@
 ] to 22764:0
 2025-06-19T12:52:47.083Z CLI info [testhub:module]  [shruthahegde_BIVNbn]  [07jvyplhbius2cmrij2ycbc5rnyr332snyum7jfe]  [8d888d60-578b-43f5-99d3-2e95dc3301fb]  stopBuild: 07jvyplhbius2cmrij2ycbc5rnyr332snyum7jfe request={"finished_at":"2025-06-19T12:52:43.968Z","finished_metadata":[],"custom_metadata":""} response={"data":""}
 2025-06-19T12:52:47.086Z CLI info [observability:module]  [shruthahegde_BIVNbn]  [07jvyplhbius2cmrij2ycbc5rnyr332snyum7jfe]  [8d888d60-578b-43f5-99d3-2e95dc3301fb]  Visit https://observability.browserstack.com/builds/07jvyplhbius2cmrij2ycbc5rnyr332snyum7jfe to view build report, insights, and many more debugging information all at one place!
+2025-06-20T08:07:17.410Z CLI info [main]     Server listening on port: 5400
+2025-06-20T08:07:17.611Z CLI info [testhub:module]  [$BROWSERSTACK_USERNAME]   [bf84b406-0354-4454-a167-bf5324a8e023]  Starting testhub from 12536:0
+2025-06-20T08:07:17.612Z CLI info [testhub:module]  [$BROWSERSTACK_USERNAME]   [bf84b406-0354-4454-a167-bf5324a8e023]  startBuild: payload=
+
+{"started_at":"2025-06-20T08:07:17.612Z","host_info":{"hostname":"lenovo_sbh","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"f7f45a29ee4d39c32e7c820919526249ccd25fb1","short_sha":"f7f45a29ee","branch":"main","tag":null,"committer":"Shrutha Hegde <shrutha10@gmail.com>","committer_date":"2025-06-19T16:15:28.000Z","author":"Shrutha Hegde <shrutha10@gmail.com>","author_date":"2025-06-19T16:15:28.000Z","commit_message":"Trigger CI test run","root":"C:\\Users\\shrut\\OneDrive\\Desktop\\BroswerStack","common_git_dir":"C:\\Users\\shrut\\OneDrive\\Desktop\\BroswerStack\\.git","worktree_git_dir":"C:\\Users\\shrut\\OneDrive\\Desktop\\BroswerStack\\.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/shruthahegde/browserstack-project.git"}]},"project_name":"BrowserStack Sample","name":"bstack-demo","build_identifier":"#2","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"pytest","frameworkVersion":"8.4.1","sdkVersion":"1.28.0","cliVersion":"1.4.0","language":"python","testFramework":{"name":"selenium","version":"4.33.0"}},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true}
+2025-06-20T08:07:19.189Z CLI error [testhub:module]  [$BROWSERSTACK_USERNAME]   [bf84b406-0354-4454-a167-bf5324a8e023]  startBuild: request={"started_at":"2025-06-20T08:07:17.612Z","host_info":{"hostname":"lenovo_sbh","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"f7f45a29ee4d39c32e7c820919526249ccd25fb1","short_sha":"f7f45a29ee","branch":"main","tag":null,"committer":"Shrutha Hegde <shrutha10@gmail.com>","committer_date":"2025-06-19T16:15:28.000Z","author":"Shrutha Hegde <shrutha10@gmail.com>","author_date":"2025-06-19T16:15:28.000Z","commit_message":"Trigger CI test run","root":"C:\\Users\\shrut\\OneDrive\\Desktop\\BroswerStack","common_git_dir":"C:\\Users\\shrut\\OneDrive\\Desktop\\BroswerStack\\.git","worktree_git_dir":"C:\\Users\\shrut\\OneDrive\\Desktop\\BroswerStack\\.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/shruthahegde/browserstack-project.git"}]},"project_name":"BrowserStack Sample","name":"bstack-demo","build_identifier":"#2","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"pytest","frameworkVersion":"8.4.1","sdkVersion":"1.28.0","cliVersion":"1.4.0","language":"python","testFramework":{"name":"selenium","version":"4.33.0"}},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true} error={"success":false,"options":null,"code":null,"errors":[{"message":"Access to BrowserStack denied due to incorrect credentials.","key":"ERROR_INVALID_CREDENTIALS"}],"error_trace_id":"450ff757-768f-4acd-8e75-d6fd1b0b4ec5"}
+2025-06-20T08:07:19.189Z CLI error  [$BROWSERSTACK_USERNAME]   [bf84b406-0354-4454-a167-bf5324a8e023]  error invoking callback for eventName: {"success":false,"options":null,"code":null,"errors":[{"message":"Access to BrowserStack denied due to incorrect credentials.","key":"ERROR_INVALID_CREDENTIALS"}],"error_trace_id":"450ff757-768f-4acd-8e75-d6fd1b0b4ec5"}
+2025-06-20T08:07:19.189Z CLI error  [$BROWSERSTACK_USERNAME]   [bf84b406-0354-4454-a167-bf5324a8e023]  undefined
+2025-06-20T08:07:23.003Z CLI info [main]  [$BROWSERSTACK_USERNAME]   [bf84b406-0354-4454-a167-bf5324a8e023]  Upgrade available: Please update from beta to the latest stable version.
+2025-06-20T08:07:23.003Z CLI error [main]  [$BROWSERSTACK_USERNAME]   [bf84b406-0354-4454-a167-bf5324a8e023]  error: Error: EPERM: operation not permitted, unlink 'C:\Users\shrut\.browserstack\BrowserStackLocal.exe'
+    at Object.unlinkSync (node:fs:1881:3)
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at ChildProcess.exithandler (node:child_process:430:5)
+    at ChildProcess.emit (node:events:517:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at maybeClose (node:internal/child_process:1098:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:303:5)
+2025-06-20T08:07:23.004Z CLI info [main]  [$BROWSERSTACK_USERNAME]   [bf84b406-0354-4454-a167-bf5324a8e023]  Received graceful signal termination, performing cleanup
+2025-06-20T08:07:23.005Z CLI info [main]  [$BROWSERSTACK_USERNAME]   [bf84b406-0354-4454-a167-bf5324a8e023]  Upgrade available: Please update from beta to the latest stable version.
+2025-06-20T08:07:23.006Z CLI error [main]  [$BROWSERSTACK_USERNAME]   [bf84b406-0354-4454-a167-bf5324a8e023]  error: Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:61:25)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at console.value (node:internal/console/constructor:305:16)
+    at console.warn (node:internal/console/constructor:385:26)
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at ChildProcess.exithandler (node:child_process:430:5)
+    at ChildProcess.emit (node:events:517:28)
+    at ChildProcess.emit (node:domain:489:12)
+2025-06-20T08:07:23.981Z CLI info [testhub:module]  [$BROWSERSTACK_USERNAME]   [bf84b406-0354-4454-a167-bf5324a8e023]  stopBuild: undefined request={"finished_at":"2025-06-20T08:07:23.006Z","finished_metadata":[],"custom_metadata":""} response={"data":""}
+2025-06-20T08:09:15.277Z CLI info [main]     Server listening on port: 5400
+2025-06-20T08:09:15.328Z CLI info [testhub:module]  [$BROWSERSTACK_USERNAME]   [abc2868a-ebb6-4c38-b269-cad56d065bb5]  Starting testhub from 6344:0
+2025-06-20T08:09:15.329Z CLI info [testhub:module]  [$BROWSERSTACK_USERNAME]   [abc2868a-ebb6-4c38-b269-cad56d065bb5]  startBuild: payload=
+
+{"started_at":"2025-06-20T08:09:15.329Z","host_info":{"hostname":"lenovo_sbh","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"f7f45a29ee4d39c32e7c820919526249ccd25fb1","short_sha":"f7f45a29ee","branch":"main","tag":null,"committer":"Shrutha Hegde <shrutha10@gmail.com>","committer_date":"2025-06-19T16:15:28.000Z","author":"Shrutha Hegde <shrutha10@gmail.com>","author_date":"2025-06-19T16:15:28.000Z","commit_message":"Trigger CI test run","root":"C:\\Users\\shrut\\OneDrive\\Desktop\\BroswerStack","common_git_dir":"C:\\Users\\shrut\\OneDrive\\Desktop\\BroswerStack\\.git","worktree_git_dir":"C:\\Users\\shrut\\OneDrive\\Desktop\\BroswerStack\\.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/shruthahegde/browserstack-project.git"}]},"project_name":"BrowserStack Sample","name":"bstack-demo","build_identifier":"#3","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"pytest","frameworkVersion":"8.4.1","sdkVersion":"1.28.0","cliVersion":"1.4.0","language":"python","testFramework":{"name":"selenium","version":"4.33.0"}},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true}
+2025-06-20T08:09:17.147Z CLI error [testhub:module]  [$BROWSERSTACK_USERNAME]   [abc2868a-ebb6-4c38-b269-cad56d065bb5]  startBuild: request={"started_at":"2025-06-20T08:09:15.329Z","host_info":{"hostname":"lenovo_sbh","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"f7f45a29ee4d39c32e7c820919526249ccd25fb1","short_sha":"f7f45a29ee","branch":"main","tag":null,"committer":"Shrutha Hegde <shrutha10@gmail.com>","committer_date":"2025-06-19T16:15:28.000Z","author":"Shrutha Hegde <shrutha10@gmail.com>","author_date":"2025-06-19T16:15:28.000Z","commit_message":"Trigger CI test run","root":"C:\\Users\\shrut\\OneDrive\\Desktop\\BroswerStack","common_git_dir":"C:\\Users\\shrut\\OneDrive\\Desktop\\BroswerStack\\.git","worktree_git_dir":"C:\\Users\\shrut\\OneDrive\\Desktop\\BroswerStack\\.git","last_tag":null,"commits_since_last_tag":0,"remotes":[{"name":"origin","url":"https://github.com/shruthahegde/browserstack-project.git"}]},"project_name":"BrowserStack Sample","name":"bstack-demo","build_identifier":"#3","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"pytest","frameworkVersion":"8.4.1","sdkVersion":"1.28.0","cliVersion":"1.4.0","language":"python","testFramework":{"name":"selenium","version":"4.33.0"}},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true} error={"success":false,"options":null,"code":null,"errors":[{"message":"Access to BrowserStack denied due to incorrect credentials.","key":"ERROR_INVALID_CREDENTIALS"}],"error_trace_id":"1b77ded9-55ab-4140-beab-c9889161c6ce"}
+2025-06-20T08:09:17.147Z CLI error  [$BROWSERSTACK_USERNAME]   [abc2868a-ebb6-4c38-b269-cad56d065bb5]  error invoking callback for eventName: {"success":false,"options":null,"code":null,"errors":[{"message":"Access to BrowserStack denied due to incorrect credentials.","key":"ERROR_INVALID_CREDENTIALS"}],"error_trace_id":"1b77ded9-55ab-4140-beab-c9889161c6ce"}
+2025-06-20T08:09:17.147Z CLI error  [$BROWSERSTACK_USERNAME]   [abc2868a-ebb6-4c38-b269-cad56d065bb5]  undefined
+2025-06-20T08:09:19.531Z CLI info [main]  [$BROWSERSTACK_USERNAME]   [abc2868a-ebb6-4c38-b269-cad56d065bb5]  Upgrade available: Please update from beta to the latest stable version.
+2025-06-20T08:09:19.531Z CLI error [main]  [$BROWSERSTACK_USERNAME]   [abc2868a-ebb6-4c38-b269-cad56d065bb5]  error: Error: EPERM: operation not permitted, unlink 'C:\Users\shrut\.browserstack\BrowserStackLocal.exe'
+    at Object.unlinkSync (node:fs:1881:3)
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at ChildProcess.exithandler (node:child_process:430:5)
+    at ChildProcess.emit (node:events:517:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at maybeClose (node:internal/child_process:1098:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:303:5)
+2025-06-20T08:09:19.532Z CLI info [main]  [$BROWSERSTACK_USERNAME]   [abc2868a-ebb6-4c38-b269-cad56d065bb5]  Received graceful signal termination, performing cleanup
+2025-06-20T08:09:19.533Z CLI info [main]  [$BROWSERSTACK_USERNAME]   [abc2868a-ebb6-4c38-b269-cad56d065bb5]  Upgrade available: Please update from beta to the latest stable version.
+2025-06-20T08:09:19.533Z CLI error [main]  [$BROWSERSTACK_USERNAME]   [abc2868a-ebb6-4c38-b269-cad56d065bb5]  error: Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:61:25)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at console.value (node:internal/console/constructor:305:16)
+    at console.warn (node:internal/console/constructor:385:26)
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at ChildProcess.exithandler (node:child_process:430:5)
+    at ChildProcess.emit (node:events:517:28)
+    at ChildProcess.emit (node:domain:489:12)
+2025-06-20T08:09:20.391Z CLI info [testhub:module]  [$BROWSERSTACK_USERNAME]   [abc2868a-ebb6-4c38-b269-cad56d065bb5]  stopBuild: undefined request={"finished_at":"2025-06-20T08:09:19.533Z","finished_metadata":[],"custom_metadata":""} response={"data":""}
