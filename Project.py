@@ -98,7 +98,7 @@ def main():
     printedHeaders = printFiveTopOpinionArticles(opinionUrl)
     translatedTitles = getTranslatedArticleHeaders(printedHeaders)
     printRepeatedWordsCounter(translatedTitles)
-    return translatedTitles  # ✅ return for testing
+    return translatedTitles 
 
 if __name__ == "__main__":
     main()
